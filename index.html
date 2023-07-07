@@ -11,19 +11,19 @@
     <link href="styles.css" type="text/css" rel="stylesheet">
 </head>
 <body class="bg-[#F5F5F5] flex items-center justify-center font-dmsans">
-	<div class="w-full max-w-[1440px] bg-white min-h-[400px]">
-        <div class="bg-black w-full text-center text-white text-sm font-normal py-2">
+	<div class="w-full max-w-[1440px] bg-white min-h-[400px] relative overflow-hidden">
+        <div class="bg-black w-full text-center text-white text-sm font-normal py-2 z-20">
             New! We launched our affiliate program! <a href="about:srcdoc#" class="underline hover:text-[#6DD1ED] transition-all ease-in duration-150">See more</a>
         </div>
         <nav class="flex items-center justify-center w-full md:max-w-[1200px] px-5 mx-auto mt-5">
             <a href="about:srcdoc#" class="font-bold font-outfit text-[32px] hover:text-[#6DD1ED] transition-all duration-150 ease-in">launch</a>
-            <div class="grow hidden text-center md:flex items-center justify-center gap-10 text-base font-[700]">
+            <div class="grow hidden text-center sm:flex items-center justify-center gap-10 text-base font-[700]">
                 <a href="about:srcdoc#" class="hover:text-[#6DD1ED] transition-all ease-in duration-150">What is Launch?</a>
                 <a href="about:srcdoc#" class="hover:text-[#6DD1ED] transition-all ease-in duration-150">Pricing</a>
                 <a href="about:srcdoc#" class="hover:text-[#6DD1ED] transition-all ease-in duration-150">FAQ</a>
             </div>
             <button class="hidden md:block text-base font-[700] bg-[#E2F4F9] rounded-lg py-3 px-5 hover:bg-[#6DD1ED] hover:text-white transition-all duration-150 ease-in">Buy now</button>
-            <div class="md:hidden grow md:grow-0 flex items-end justify-end text-right">
+            <div class="sm:hidden grow md:grow-0 flex items-end justify-end text-right">
                 <svg class="cursor-pointer group" id="mobileMenuButton" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M3 7H21" stroke="black" stroke-width="1.5" stroke-linecap="round" class="group-hover:stroke-[#6DD1ED] transition-all duration-150 ease-in"/>
                     <path d="M3 12H21" stroke="black" stroke-width="1.5" stroke-linecap="round" class="group-hover:stroke-[#6DD1ED] transition-all duration-150 ease-in"/>
@@ -156,14 +156,14 @@
             <p class="text-center text-lg text-[#364153] my-3 font-normal max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
         <!-- boxes -->
-        <ul class="flex flex-wrap lg:gap-10 gap-5 px-4 lg:px-20 font-outfit overflow-hidden">
-            <li class="w-full lg:w-[30%] rounded-3xl self-stretch min-h-[300px] p-8 bg-[#6DD1ED] text-black">
+        <ul class="flex flex-wrap justify-evenly lg:gap-10 md:gap-6 gap-5 px-4 lg:px-20 py-10 font-outfit overflow-hidden">
+            <li class="w-full lg:w-[30%] md:w-[46%] rounded-3xl self-stretch min-h-[300px] p-8 bg-[#6DD1ED] text-black hover:shadow-xl transition-all duration-150 ease-in">
                 <h5 class="font-bold tracking-tight text-[40px] leading-tight">Build for Consistancy</h5>
                 <p class="text-base font-normal mt-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
                 </p>
             </li>
-            <li class="w-full lg:w-[30%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED]">
+            <li class="w-full lg:w-[30%] md:w-[46%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED] hover:shadow-xl transition-all duration-150 ease-in">
                 <div class="w-[72px] flex items-center justify-center aspect-square border-4 border-white rounded-full bg-[#6DD1ED] text-xl font-semibold z-10 hover:z-20 cursor-pointer">
                     VC
                 </div>
@@ -177,7 +177,7 @@
                     <img src="https://avatars.githubusercontent.com/u/25511379?v=4">
                 </div>
             </li>
-            <li class="w-full lg:w-[30%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED]">
+            <li class="w-full lg:w-[30%] md:w-[46%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED] hover:shadow-xl transition-all duration-150 ease-in">
                 <div class="w-[90%]">
                     <div class="bg-black h-[32px] flex items-center justify-center px-2 gap-2">
                         <div class="w-1/2">
@@ -198,12 +198,12 @@
                     </div>
                 </div>
             </li>
-            <li class="w-full lg:w-[30%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED] gap-4 flex-col">
+            <li class="w-full lg:w-[30%] md:w-[46%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED] gap-4 flex-col hover:shadow-xl transition-all duration-150 ease-in">
                 <button class="rounded-xl border text-base font-medium border-black p-3">Button Hollow S</button>
                 <button class="rounded-xl text-base font-medium p-3 bg-white">Button Secondary M</button>
                 <button class="rounded-xl text-lg font-normal py-4 px-6 bg-black text-white">Button Primary XL</button>
             </li>
-            <li class="w-full lg:w-[30%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED]">
+            <li class="w-full lg:w-[30%] md:w-[46%] flex items-center justify-center rounded-3xl self-stretch min-h-[300px] p-8 text-black bg-[#E8ECED] hover:shadow-xl transition-all duration-150 ease-in">
                 <div class="w-[90%] bg-white px-4 py-8">
                     <p class="font-bold mb-2">Blog CMS</p>
                     <span class="inline-block w-1/6 h-3 bg-[#E8ECED] mr-2"></span>
@@ -215,7 +215,7 @@
                     <div class="inline-block w-[30%] h-10 bg-[#E8ECED]"></div>
                 </div>
             </li>
-            <li class="w-full lg:w-[30%] rounded-3xl self-stretch min-h-[300px] p-8 bg-[#6DD1ED] text-black">
+            <li class="w-full lg:w-[30%] md:w-[46%] rounded-3xl self-stretch min-h-[300px] p-8 bg-[#6DD1ED] text-black hover:shadow-xl transition-all duration-150 ease-in">
                 <h5 class="font-bold tracking-tight text-[40px] leading-tight">Pre-build<br> Pages</h5>
                 <p class="text-base font-normal mt-5">
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -231,14 +231,14 @@
         </ul>
 
         <!-- gotta add here light / dark mode javascript -->
-        <div class="bg-black text-white w-full pl-3 pr-3 lg:px-20 pt-20 md:pt-32 mb-36 md:mt-36 mt-20">
+        <div id="darkMode" class="bg-black text-white w-full pl-3 pr-3 lg:px-20 pt-20 md:pt-32 mb-36 md:mt-36 mt-20 transition-all duration-150 ease-in">
             <p class="text-center">Turn on the light</p>
             <h6 class="font-medium text-[32px] lg:text-[56px] text-center mt-4">Choose between dark and light theme</h6>
             <p class="w-full md:w-[45%] text-center m-auto text-lg text-[#E7EBFB] font-normal mt-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <div class="mx-auto flex items-center justify-center bg-white rounded-lg w-[100px] relative overflow-hidden mt-16 mb-16">
-                <div id="nightShift" class="absolute top-0 left-0 h-full w-1/2 bg-[#6DD1ED] rounded-lg"></div>
+            <div class="mx-auto flex items-center justify-center bg-white rounded-lg w-[100px] relative overflow-hidden mt-16 mb-16 shadow-lg">
+                <div id="nightShift" class="absolute top-0 right-0 h-full w-1/2 bg-[#6DD1ED] rounded-lg transition-all duration-150 ease-in"></div>
                 <button id="light" class="w-1/2 flex items-center justify-center h-[50px]">
                     <svg class="z-10" width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11.5547 17.4166C15.0985 17.4166 17.9713 14.5438 17.9713 11C17.9713 7.45615 15.0985 4.58331 11.5547 4.58331C8.01084 4.58331 5.138 7.45615 5.138 11C5.138 14.5438 8.01084 17.4166 11.5547 17.4166Z" fill="black"/>
@@ -253,6 +253,36 @@
             </div>
             <img src="https://neluttu.github.io/saas-landing-page/images/site_05.png" class="w-[80%] mx-auto">
         </div>
+        <script>
+            // Obține elementele HTML pe care dorești să le modifice
+            const darkModeContainer = document.querySelector('#darkMode');
+            const nightShift = document.querySelector('#nightShift');
+            const lightButton = document.querySelector('#light');
+            const darkButton = document.querySelector('#dark');
+
+            // Adaugă un ascultător de evenimente pentru butonul "dark"
+            darkButton.addEventListener('click', () => {
+            // Modifică clasele CSS pentru modul întunecat
+            darkModeContainer.classList.remove('bg-white', 'text-black');
+            darkModeContainer.classList.add('bg-black', 'text-white');
+            
+            // Modifică poziția elementului "nightShift"
+            nightShift.style.left = 'auto';
+            nightShift.style.right = '0';
+            });
+
+            // Adaugă un ascultător de evenimente pentru butonul "light"
+            lightButton.addEventListener('click', () => {
+            // Modifică clasele CSS pentru modul luminos
+            darkModeContainer.classList.remove('bg-black', 'text-white');
+            darkModeContainer.classList.add('bg-white', 'text-black');
+            
+            // Modifică poziția elementului "nightShift"
+            nightShift.style.left = '0';
+            nightShift.style.right = 'auto';
+            });
+
+        </script>
 
         <div class="px-10 lg:px-40 mb-20 lg:mb-40">
             <p class="text-center text-base my-3 font-[500]">Testimonials</p>
@@ -262,8 +292,8 @@
             <p class="text-center text-lg text-[#364153] my-3 font-normal max-w-xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
 
-        <div class="flex items-start justify-evenly gap-8 w-full px-32 mb-32 relative overflow-hidden">
-            <div id="left" class="w-[40px] bg-black/10 hover:bg-black/30 transition-all duration-150 ease-in left-[108px] top-1/2 aspect-square rounded-full absolute flex items-center justify-center cursor-pointer">
+        <div class="flex items-start justify-start w-[92%] mx-auto gap-8 mb-32 lg:px-14 pb-16 relative overflow-hidden">
+            <div id="left" class="w-[40px] bg-black/10 hover:bg-black/30 transition-all duration-150 ease-in lg:left-[108px] left-[10px] top-1/3 aspect-square rounded-full absolute flex items-center justify-center cursor-pointer">
                 <svg class="ml-1" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1_3131)">
                     <path d="M8.51562 1.4436L1.44456 8.51467L8.51562 15.5857" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -275,7 +305,7 @@
                     </defs>
                 </svg>
             </div>
-            <div id="left" class="w-[40px] bg-black/10 hover:bg-black/30 transition-all duration-150 ease-in right-[108px] top-1/2 aspect-square rounded-full absolute flex items-center justify-center cursor-pointer">
+            <div id="left" class="w-[40px] bg-black/10 hover:bg-black/30 transition-all duration-150 ease-in lg:right-[108px] right-[10px] top-1/3 aspect-square rounded-full absolute flex items-center justify-center cursor-pointer">
                 <svg class="mr-1" width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1_3127)">
                     <path d="M8.48438 15.5564L15.5554 8.48533L8.48438 1.41426" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -288,7 +318,7 @@
                 </svg>
             </div>
 
-            <div class="w-1/4 cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8 shrink-0">
+            <div class="w-full lg:basis-[22%] md:basis-[47%] cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8 shrink-0">
                 <div class="flex items-center justify-start gap-4 leading-tight">
                     <img src="https://neluttu.github.io/saas-landing-page/images/avatar_01.png" class="w-[60px]">
                     <span class="font-semibold text-[20px] tracking-tighter">
@@ -300,7 +330,7 @@
                     “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
                 </p>
             </div>
-            <div class="w-1/4 cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8">
+            <div class="w-full lg:basis-[22%] md:basis-[47%] cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8 shrink-0">
                 <div class="flex items-center justify-start gap-4 leading-tight">
                     <img src="https://neluttu.github.io/saas-landing-page/images/avatar_02.png" class="w-[60px]">
                     <span class="font-semibold text-[20px] tracking-tighter">
@@ -312,7 +342,7 @@
                     “Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.”
                 </p>
             </div>
-            <div class="w-1/4 cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8">
+            <div class="w-full lg:basis-[22%] md:basis-[47%] cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8 shrink-0">
                 <div class="flex items-center justify-start gap-4 leading-tight">
                     <img src="https://neluttu.github.io/saas-landing-page/images/avatar_03.png" class="w-[60px]">
                     <span class="font-semibold text-[20px] tracking-tighter">
@@ -324,7 +354,7 @@
                     “Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit.”
                 </p>
             </div>
-            <div class="w-1/4 cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8">
+            <div class="w-full lg:basis-[22%] md:basis-[47%] cursor-pointer bg-[#F5F7F7] hover:shadow-2xl transition-all duration-150 ease-linear rounded-2xl self-stretch p-8 shrink-0">
                 <div class="flex items-center justify-start gap-4 leading-tight">
                     <img src="https://neluttu.github.io/saas-landing-page/images/avatar_04.png" class="w-[60px]">
                     <span class="font-semibold text-[20px] tracking-tighter">
@@ -379,7 +409,7 @@
             </p>
             <div class="w-[94%] lg:w-[70%] mx-auto mt-20 font-dmsans tracking-tight">
                 <details class="cursor-pointer bg-[right_1rem_top_1.6rem] bg-no-repeat bg-arrow text-lg font-medium border-b border-[#CDD5E0] pb-4 mb-6">
-                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative">
+                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative pr-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?
                         <svg class="absolute right-0 bottom-2" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_3156)">
@@ -399,7 +429,7 @@
                 </details>
 
                 <details open class="cursor-pointer bg-[right_1rem_top_1.6rem] bg-no-repeat bg-arrow text-lg font-medium border-b border-[#CDD5E0] pb-4 mb-6">
-                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative">
+                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative pr-6">
                         Ut enim ad minima veniam, quis nostrum exercitationem?
                         <svg class="absolute right-0 bottom-2" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_3156)">
@@ -419,7 +449,7 @@
                 </details>
 
                 <details class="cursor-pointer bg-[right_1rem_top_1.6rem] bg-no-repeat bg-arrow text-lg font-medium border-b border-[#CDD5E0] pb-4 mb-6">
-                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative">
+                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative pr-6">
                         Quis autem vel eum iure reprehenderit qui?
                         <svg class="absolute right-0 bottom-2" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_3156)">
@@ -439,7 +469,7 @@
                 </details>
 
                 <details class="cursor-pointer bg-[right_1rem_top_1.6rem] bg-no-repeat bg-arrow text-lg font-medium border-b border-[#CDD5E0] pb-4 mb-6">
-                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative">
+                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative pr-6">
                         Voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat?
                         <svg class="absolute right-0 bottom-2" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_3156)">
@@ -459,7 +489,7 @@
                 </details>
 
                 <details class="cursor-pointer bg-[right_1rem_top_1.6rem] bg-no-repeat bg-arrow text-lg font-medium border-b border-[#CDD5E0] pb-4 mb-6">
-                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative">
+                    <summary class="font-semibold list-none hover:text-[#6DD1ED] relative pr-6">
                         Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut?
                         <svg class="absolute right-0 bottom-2" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_3156)">
@@ -486,23 +516,23 @@
                 </li>
                 <li class="lg:w-2/12 w-full leading-loose">
                     <p>Product</p>
-                    <a href="#" class="font-[100] text-base leading-9 block">What is Launch?</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">Pricing</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">FAQ</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">Contact</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">What is Launch?</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Pricing</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">FAQ</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Contact</a>
                 </li>
                 <li class="lg:w-2/12 w-full leading-loose">
                     <p>Resources</p>
-                    <a href="#" class="font-[100] text-base leading-9 block">Updates</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">Community</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">Terms and Conditions</a>
-                    <a href="#" class="font-[100] text-base leading-9 block">Privacy Policy</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Updates</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Community</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Terms and Conditions</a>
+                    <a href="#" class="font-[100] text-base leading-9 block hover:text-[#6DD1ED] transition-all duration-150 ease-in">Privacy Policy</a>
                 </li>
                 <li class="lg:w-1/3 w-full">
                     <p>Subscribe to our newsletter</p>
                     <div class="flex items-center justify-center gap-2 mt-6 w-full">
                         <input type="text" class="grow text-black outline-none rounded-lg p-3 px-5" placeholder="Email Address">
-                        <button class="bg-[#6DD1ED] p-3 px-5 rounded-lg text-black font-semibold">Send</button>
+                        <button class="bg-[#6DD1ED] hover:text-white transition-all duration-150 ease-in p-3 px-5 rounded-lg text-black font-semibold">Send</button>
                     </div>
                 </li>
             </ul>
